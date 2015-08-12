@@ -5,7 +5,7 @@ bool palin(int);
 int main(){
 long a;
 cin>>a;
-for(int i=a+1;i<1000000+a;i++){
+for(int i=a+1;;i++){
     //cout<<"Checking palin for : "<<i<<endl;
         if(palin(i)){
 
